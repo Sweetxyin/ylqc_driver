@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/seizeorders/seizeorders",
+    "pages/index/index",
+    "pages/order/order",
+    "pages/change_electricity/change_electricity",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/user/authentication",
+    "pages/setting/setting",
+    "pages/login/login",
+    "pages/login/phonelogin",
+    "pages/yearbill/yearbill",
+    "pages/orderinvoice/orderinvoice",
+    "pages/orderinvoice/invoicing",
+    "pages/order/orderdetails/orderdetails",
+    "pages/order/service/service"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#61c2f4",
+    "list": [
+      {
+        "text": "抢单",
+        "pagePath": "pages/seizeorders/seizeorders",
+        "iconPath": "./static/images/tab_icon/seize.png",
+        "selectedIconPath": "./static/images/tab_icon/seize_active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/order",
+        "iconPath": "./static/images/tab_icon/order.png",
+        "selectedIconPath": "./static/images/tab_icon/order_active.png"
+      },
+      {
+        "text": "换电",
+        "pagePath": "pages/change_electricity/change_electricity",
+        "iconPath": "./static/images/tab_icon/change.png",
+        "selectedIconPath": "./static/images/tab_icon/change_active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "./static/images/tab_icon/message.png",
+        "selectedIconPath": "./static/images/tab_icon/message_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/images/tab_icon/user.png",
+        "selectedIconPath": "./static/images/tab_icon/user_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
