@@ -8,21 +8,21 @@
 			</view>
 			<view class="company_info">
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">真实姓名</text>
+					<text style="padding-left: 40rpx;">真实姓名</text>
 					 <u--input placeholder="请输入" border="none" inputAlign="right"
-					    v-model="userName" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="userName" fontSize="30rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">电话号码</text>
+					<text style="padding-left: 40rpx;">电话号码</text>
 					 <u--input placeholder="请输入" border="none" inputAlign="right"
-					    v-model="phone" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="phone" fontSize="30rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">身份证号</text>
+					<text style="padding-left: 40rpx;">身份证号</text>
 					 <u--input placeholder="请输入" border="none" inputAlign="right"
-					    v-model="userId" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="userId" fontSize="30rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
 					  ></u--input>
 				</view>
 			</view>
@@ -33,15 +33,15 @@
 			</view>
 			<view class="company_info">
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">车牌</text>
+					<text style="padding-left: 40rpx;">车牌</text>
 					 <u--input placeholder="请输入" border="none" inputAlign="right" 
-					    v-model="licensePlate" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="licensePlate" fontSize="30rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">车型</text>
+					<text style="padding-left: 40rpx;">车型</text>
 					 <u--input placeholder="请输入" border="none" inputAlign="right"
-					    v-model="vehicleModel" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="vehicleModel" fontSize="30rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
 					  ></u--input>
 				</view>
 			</view>
@@ -99,7 +99,7 @@
 		margin-left: 3%;
 	}
 	.info_item{
-		height: 70rpx;
+		height: 90rpx;
 		display: flex;
 		align-items: center;
 		margin-top: 5rpx;

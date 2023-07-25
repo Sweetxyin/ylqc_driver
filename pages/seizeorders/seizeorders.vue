@@ -33,7 +33,7 @@
 			</view>
 			<view class="item_end">
 				<view class="order_item">
-					<text style="color:crimson; font-weight: bold; font-size: 40rpx;">{{item.orderAmount}}元</text>
+					<text style="color:crimson; font-weight: bold; padding-top: 10rpx; font-size: 40rpx;">{{item.orderAmount}}元</text>
 				</view>
 			
 			<view class="but">
@@ -103,7 +103,7 @@
 		border-radius: 30rpx;
 		margin: 10rpx 0 0 2.5%;
 		padding: 10rpx 15rpx 0 13rpx;
-		font-size: 26rpx;
+		font-size: 30rpx;
 		display: flex;
 		flex-direction: column;
 		line-height: 44rpx;
@@ -112,7 +112,7 @@
 			height: 80rpx;
 			background-color: #b0e0e6;
 			border-radius: 15rpx;
-			font-size: 28rpx;
+			font-size: 32rpx;
 			color: white;
 			display: flex;
 			justify-content: space-between;

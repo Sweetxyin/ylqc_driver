@@ -142,7 +142,6 @@
 				"iconPath": "./static/images/tab_icon/seize.png",
 				"selectedIconPath": "./static/images/tab_icon/seize_active.png"
 			},
-			
 			{
 				"text": "订单",
 				"pagePath": "pages/order/order",

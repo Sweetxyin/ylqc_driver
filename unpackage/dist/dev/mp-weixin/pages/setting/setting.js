@@ -41,6 +41,7 @@ if (!Math) {
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return {
     a: common_vendor.p({
+      size: "large",
       title: "头像",
       isLink: true
     }),
@@ -52,7 +53,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入昵称",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.info_name
     }),
@@ -60,7 +61,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     f: common_vendor.p({
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.user_name
     }),
@@ -68,7 +69,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     h: common_vendor.p({
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.user_id
     }),
@@ -77,7 +78,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入电话号码",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.phone
     }),
@@ -85,7 +86,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     l: common_vendor.p({
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.licensePlate
     }),
@@ -93,11 +94,12 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     n: common_vendor.p({
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.vehicleModel
     }),
     o: common_vendor.p({
+      size: "large",
       title: "关于延龙",
       isLink: true
     }),
@@ -105,6 +107,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       border: false
     }),
     q: common_vendor.p({
+      size: "large",
       title: "延龙法律条规",
       isLink: true
     }),
@@ -112,6 +115,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       border: false
     }),
     s: common_vendor.p({
+      size: "large",
       title: "收费标准",
       isLink: true
     }),

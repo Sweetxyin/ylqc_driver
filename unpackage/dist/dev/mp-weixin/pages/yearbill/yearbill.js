@@ -41,8 +41,6 @@ const _sfc_main = {
       //获取当前时间
     };
   },
-  onLoad() {
-  },
   methods: {
     month_change(index) {
       this.month_current = index;

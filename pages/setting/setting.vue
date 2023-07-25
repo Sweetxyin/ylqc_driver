@@ -8,30 +8,30 @@
 			</view>
 			<view class="basic_info">		
 				<u-cell-group class="setting-list" :border="false">
-					<u-cell class="setting-item" title="头像" isLink></u-cell>
+					<u-cell class="setting-item" size="large" title="头像" isLink></u-cell>
 				</u-cell-group>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">昵称</text>
-					 <u--input placeholder="请输入昵称" border="none" inputAlign="right"
-					    v-model="info_name" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					<text style="padding-left: 40rpx;">昵称</text>
+					 <u--input class="input_right" placeholder="请输入昵称" border="none" inputAlign="right"
+					    v-model="info_name" fontSize="30rpx" :disabled="inputStatus"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">真实姓名</text>
-					 <u--input border="none" inputAlign="right"
-					    v-model="user_name" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					<text style="padding-left: 40rpx;">真实姓名</text>
+					 <u--input class="input_right" border="none" inputAlign="right"
+					    v-model="user_name" fontSize="30rpx" :disabled="inputStatus"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">身份证号</text>
-					 <u--input border="none" inputAlign="right"
-					    v-model="user_id" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					<text style="padding-left: 40rpx;">身份证号</text>
+					 <u--input class="input_right" border="none" inputAlign="right"
+					    v-model="user_id" fontSize="30rpx" :disabled="inputStatus"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">电话号码</text>
-					 <u--input placeholder="请输入电话号码" border="none" inputAlign="right"
-					    v-model="phone" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					<text style="padding-left: 40rpx;">电话号码</text>
+					 <u--input  class="input_right" placeholder="请输入电话号码" border="none" inputAlign="right"
+					    v-model="phone" fontSize="30rpx" :disabled="inputStatus"
 					  ></u--input>
 				</view>
 			</view>
@@ -42,28 +42,28 @@
 			
 			<view class="authentication_info">
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">车牌</text>
+					<text style="padding-left: 40rpx;">车牌</text>
 					 <u--input border="none" inputAlign="right"
-					    v-model="licensePlate" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="licensePlate" fontSize="30rpx" :disabled="inputStatus"  class="input_right"
 					  ></u--input>
 				</view>
 				<view class="info_item">
-					<text style="padding-left: 35rpx;">车型</text>
+					<text style="padding-left: 40rpx;">车型</text>
 					 <u--input border="none" inputAlign="right"
-					    v-model="vehicleModel" fontSize="26rpx" :disabled="inputStatus" style="padding-right: 25rpx;"
+					    v-model="vehicleModel" fontSize="30rpx" :disabled="inputStatus" class="input_right"
 					  ></u--input>
 				</view>
 			</view>
 
 			<view class="other_info">
 				<u-cell-group class="setting-list" :border="false">
-					<u-cell class="setting-item" title="关于延龙" isLink></u-cell>
+					<u-cell class="setting-item" size="large" title="关于延龙" isLink></u-cell>
 				</u-cell-group>
 				<u-cell-group class="setting-list" :border="false">
-					<u-cell class="setting-item" title="延龙法律条规" isLink></u-cell>
+					<u-cell class="setting-item" size="large" title="延龙法律条规" isLink></u-cell>
 				</u-cell-group>
 				<u-cell-group class="setting-list" :border="false">
-					<u-cell class="setting-item" title="收费标准" isLink></u-cell>
+					<u-cell class="setting-item" size="large" title="收费标准" isLink></u-cell>
 				</u-cell-group>
 			</view>
 			
@@ -122,12 +122,18 @@
 			margin-left: 3%;
 		}
 		.info_item{
-			height: 75rpx;
+			height: 90rpx;
 			display: flex;
 			align-items: center;
 			margin-top: 5rpx;
 			border-bottom: 2rpx solid #efefef;
 		}
+	}
+	.setting-list{
+		height: 90rpx;
+	}
+	.setting-item{
+		height: 90rpx;
 	}
 	.info_title{
 		height: 50rpx;
@@ -157,6 +163,8 @@
 		width: 94%;
 		padding: 25rpx 0 0 3%;
 	}
-	
+	.input_right{
+		margin-right: 25rpx;
+	}
 
 </style>

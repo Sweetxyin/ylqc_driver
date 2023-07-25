@@ -47,11 +47,17 @@
   margin-left: 3%;
 }
 .setting_info .info_item.data-v-018cdf56 {
-  height: 75rpx;
+  height: 90rpx;
   display: flex;
   align-items: center;
   margin-top: 5rpx;
   border-bottom: 2rpx solid #efefef;
+}
+.setting-list.data-v-018cdf56 {
+  height: 90rpx;
+}
+.setting-item.data-v-018cdf56 {
+  height: 90rpx;
 }
 .info_title.data-v-018cdf56 {
   height: 50rpx;
@@ -80,4 +86,7 @@
 .logout_button.data-v-018cdf56 {
   width: 94%;
   padding: 25rpx 0 0 3%;
+}
+.input_right.data-v-018cdf56 {
+  margin-right: 25rpx;
 }

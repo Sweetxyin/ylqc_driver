@@ -117,9 +117,7 @@
 				value1: Number(new Date()),//获取当前时间
 			}
 		},
-		onLoad() {
-
-		},
+		
 		methods: {
 			month_change(index) {
 				this.month_current = index
@@ -135,7 +133,6 @@
 				this.timeValue = timeValue;
 				console.log(timeValue);
 			},
-			
 			// 年账单日期
 			async confirm1(e) {
 				this.year_show = false;

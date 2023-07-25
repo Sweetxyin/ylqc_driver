@@ -3,9 +3,9 @@
 		<!-- 订单状态标签 -->
 		<view class="order_tab">
 			  <u-sticky class="tab_list" bgColor="#fff">
-			     <u-tabs :list="list1"  :scrollable="false"
+			     <u-tabs :list="list1" class="tabs"  :scrollable="false"
 				  :current="tabIndex" @change="tabChang" 
-				 itemStyle="padding-left: 41px; padding-right:39px; height: 34px;"
+				itemStyle="padding-left: 41px; padding-right:39px; height: 34px;"
 				   :activeStyle="{
 				         color: '#3c9cff',
 				         fontWeight: 'bold',
@@ -115,10 +115,19 @@
 		width: 100%;
 		display: flex;
 		// justify-content: space-around;
-		.tab_list {
-			display: flex;
-			// justify-content: space-between;
-		}
+		
+		
+	}
+	.tab_list {
+		width: 100%;
+		display: flex;
+		// justify-content: space-between;
+	}
+	.tabs{
+		width: 100%;
+		display: flex;
+		// justify-content: space-around;
+		// align-items: center;
 	}
 	.order_none{
 		width: 100%;

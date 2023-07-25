@@ -34,7 +34,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.userName
     }),
@@ -43,7 +43,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.phone
     }),
@@ -52,7 +52,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.userId
     }),
@@ -61,7 +61,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.licensePlate
     }),
@@ -70,7 +70,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
       placeholder: "请输入",
       border: "none",
       inputAlign: "right",
-      fontSize: "26rpx",
+      fontSize: "30rpx",
       disabled: _ctx.inputStatus,
       modelValue: $data.vehicleModel
     }),

@@ -5,8 +5,8 @@
 					:key="index">
 			<view class="processing_1">
 				<view class="order_status">
-					<text style="font-size: 28rpx; padding-left: 15rpx; font-weight: bold;">订单</text>
-					<text style="color: darkgray; font-size: 24rpx;padding-right: 16rpx;">{{item.orderType}}</text>
+					<text style="font-size: 32rpx; padding-left: 15rpx; font-weight: bold;">订单</text>
+					<text style="color: darkgray; font-size: 28rpx;padding-right: 16rpx;">{{item.orderType}}</text>
 				</view>
 				
 				<view class="item1">
@@ -14,7 +14,7 @@
 						<u-icon name="clock-fill"  size="14"></u-icon>
 					    <text>订单生成时间：{{item.orderTime}}</text>
 					</view>
-					<text style="font-size: 22rpx; padding-right: 10rpx; ">{{item.orderStatus}}></text>
+					<text style="font-size: 26rpx; padding-right: 10rpx; ">{{item.orderStatus}}></text>
 				    
 				</view>
 				<view class="order_item">
@@ -82,13 +82,13 @@
 		flex-direction: column;
 	}
 	.processing_list{
-		height:350rpx;
+		height:340rpx;
 		width: 92%;
 		background-color: white;
 		border-radius: 30rpx;
 		margin: 10rpx 0 0 2.5%;
 		padding: 10rpx 15rpx 0 13rpx;
-		font-size: 26rpx;
+		font-size: 28rpx;
 		display: flex;
 		flex-direction: column;
 		line-height: 44rpx;
